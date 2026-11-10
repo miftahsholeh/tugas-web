@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(247, 235, 223);
+    text-align: center;
+}
+h1 { 
+    color:rgb(55,36, 20);
+    font-family: 'POPPINS', Courier, monospace;
+
+}
+p {color :blueviolet;
+font-size: 35pt;}

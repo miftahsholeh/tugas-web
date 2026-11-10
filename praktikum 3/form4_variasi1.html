@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengujian Form 4</title>
+</head>
+<body>
+
+<form action="form4.html" method="POST">
+    <fieldset>
+        <legend><h1>Formulir Peserta</h1></legend>
+
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama"
+            value="miftah Sholeh">
+        </p>
+
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username"
+            value="miptah">
+        </p>
+
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password"
+            value="123456">
+        </p>
+
+        <p>
+            <label>Jenis Kelamin:</label>
+            <input type="radio" name="jenkel"
+            value="laki-laki" checked>Laki-laki
+
+            <input type="radio" name="jenkel"
+            value="perempuan">Perempuan
+        </p>
+
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal"
+            value="2005-05-10">
+        </p>
+
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="budha">Budha</option>
+                <option value="hindu">Hindu</option>
+                <option value="islam" selected>Islam</option>
+                <option value="katholik">Kristen Katholik</option>
+                <option value="protestan">Kristen Protestan</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email"
+            value="miftah01@gmail.com">
+        </p>
+
+        <p>
+            <label>Pilih Course:</label>
+            <input type="checkbox" name="web_native" checked>Web Native
+            <input type="checkbox" name="web_framework" checked>Web Framework
+            <input type="checkbox" name="mobile_native">Mobile Native
+            <input type="checkbox" name="mobile_lintas">Mobile Lintas Platform
+        </p>
+
+        <p>Alamat:</p>
+        <textarea name="alamat" cols="50" rows="5">Malang, Jawa Timur</textarea>
+
+        <p>
+            <input type="submit" name="submit" value="Daftar">
+        </p>
+
+    </fieldset>
+</form>
+
+</body>
+</html>

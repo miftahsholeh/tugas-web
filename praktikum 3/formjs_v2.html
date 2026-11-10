@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengujian Login 2</title>
+</head>
+<body>
+
+<form id="loginForm">
+    <h1>Login Pengujian 2</h1>
+
+    <input type="text" id="username"
+    placeholder="Enter your Username...">
+
+    <br><br>
+
+    <input type="password" id="password"
+    placeholder="Enter your Password...">
+
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+let loginForm = document.getElementById("loginForm");
+
+loginForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    let username = document.getElementById("username");
+    let password = document.getElementById("password");
+
+    if (username.value == "" || password.value == "") {
+        alert("Ensure you input a value in both fields!");
+    } else {
+        alert("This form has been successfully submitted!");
+
+        console.log("Username: " + username.value);
+
+        username.value = "";
+        password.value = "";
+    }
+});
+</script>
+
+</body>
+</html>
